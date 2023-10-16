@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include Vega-Lite and Vega-Embed libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <!-- Specify the container for your visualization -->
+  <div id="vis"></div>
+
+  <script>
+    // Initialize and render the Vega-Lite visualization
+    vegaEmbed('#vis', 'visualization.vl.json'); // Replace with the actual filename of your JSON spec
+  </script>
+</body>
+</html>
