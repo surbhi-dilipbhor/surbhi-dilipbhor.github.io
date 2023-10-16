@@ -7,7 +7,7 @@
   "title": {"text": "BUILDING INVENTORY DATA", "anchor": "middle"},
   "vconcat": [
     {
-      "transform": [{"filter": "datum['Congress Dist'] !== 0"}],
+      "transform": [{"filter": "datum['Congress Dist'] > 0"}],
       "mark": "bar",
       "encoding": {
         "x": {"field": "Congress Dist", "type": "ordinal"},
